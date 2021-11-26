@@ -15,6 +15,7 @@ exports.create = (req, res) => {
     size: req.body.size,
     firstName: req.body.firstName,
     lastName: req.body.lastName,
+    tel: req.body.tel,
     email: req.body.email,
     delivery: req.body.delivery,
     message: req.body.message,
